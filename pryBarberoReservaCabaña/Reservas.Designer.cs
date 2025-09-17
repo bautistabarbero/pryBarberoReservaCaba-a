@@ -56,12 +56,12 @@
             // 
             // lblTipodeCabaña
             // 
-            lblTipodeCabaña.AutoSize = true;
+            lblTipodeCabaña.BorderStyle = BorderStyle.FixedSingle;
             lblTipodeCabaña.Font = new Font("Segoe UI", 9F);
-            lblTipodeCabaña.Location = new Point(35, 26);
+            lblTipodeCabaña.Location = new Point(35, 9);
             lblTipodeCabaña.Name = "lblTipodeCabaña";
             lblTipodeCabaña.RightToLeft = RightToLeft.No;
-            lblTipodeCabaña.Size = new Size(89, 15);
+            lblTipodeCabaña.Size = new Size(554, 116);
             lblTipodeCabaña.TabIndex = 0;
             lblTipodeCabaña.Text = "Tipo de Cabaña";
             lblTipodeCabaña.Click += lblTipo_Click;
@@ -70,10 +70,10 @@
             // 
             lblTipo.AutoSize = true;
             lblTipo.Font = new Font("Segoe UI", 9F);
-            lblTipo.Location = new Point(74, 77);
+            lblTipo.Location = new Point(50, 44);
             lblTipo.Name = "lblTipo";
             lblTipo.RightToLeft = RightToLeft.No;
-            lblTipo.Size = new Size(36, 15);
+            lblTipo.Size = new Size(37, 15);
             lblTipo.TabIndex = 1;
             lblTipo.Text = " Tipo:";
             // 
@@ -81,7 +81,7 @@
             // 
             lblPersonas.AutoSize = true;
             lblPersonas.Font = new Font("Segoe UI", 9F);
-            lblPersonas.Location = new Point(261, 77);
+            lblPersonas.Location = new Point(225, 44);
             lblPersonas.Name = "lblPersonas";
             lblPersonas.RightToLeft = RightToLeft.No;
             lblPersonas.Size = new Size(126, 15);
@@ -92,17 +92,16 @@
             // 
             lblDias.AutoSize = true;
             lblDias.Font = new Font("Segoe UI", 9F);
-            lblDias.Location = new Point(487, 77);
+            lblDias.Location = new Point(388, 44);
             lblDias.Name = "lblDias";
             lblDias.RightToLeft = RightToLeft.No;
-            lblDias.Size = new Size(32, 15);
+            lblDias.Size = new Size(0, 15);
             lblDias.TabIndex = 3;
-            lblDias.Text = "Dìas:";
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(113, 77);
+            comboBox1.Location = new Point(64, 66);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 4;
@@ -110,14 +109,14 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(321, 77);
+            comboBox2.Location = new Point(230, 66);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
             comboBox2.TabIndex = 5;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(574, 74);
+            dateTimePicker1.Location = new Point(442, 38);
             dateTimePicker1.MinDate = new DateTime(2025, 9, 8, 0, 0, 0, 0);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(93, 23);
@@ -127,7 +126,7 @@
             // 
             lblDesde.AutoSize = true;
             lblDesde.Font = new Font("Segoe UI", 9F);
-            lblDesde.Location = new Point(526, 77);
+            lblDesde.Location = new Point(394, 44);
             lblDesde.Name = "lblDesde";
             lblDesde.RightToLeft = RightToLeft.No;
             lblDesde.Size = new Size(42, 15);
@@ -138,7 +137,7 @@
             // 
             lblHasta.AutoSize = true;
             lblHasta.Font = new Font("Segoe UI", 9F);
-            lblHasta.Location = new Point(528, 109);
+            lblHasta.Location = new Point(396, 82);
             lblHasta.Name = "lblHasta";
             lblHasta.RightToLeft = RightToLeft.No;
             lblHasta.Size = new Size(40, 15);
@@ -148,7 +147,7 @@
             // 
             // dateTimePicker2
             // 
-            dateTimePicker2.Location = new Point(574, 103);
+            dateTimePicker2.Location = new Point(442, 76);
             dateTimePicker2.MinDate = new DateTime(2025, 9, 8, 0, 0, 0, 0);
             dateTimePicker2.Name = "dateTimePicker2";
             dateTimePicker2.Size = new Size(93, 23);
@@ -156,19 +155,19 @@
             // 
             // lblAdicionales
             // 
-            lblAdicionales.AutoSize = true;
+            lblAdicionales.BorderStyle = BorderStyle.FixedSingle;
             lblAdicionales.Font = new Font("Segoe UI", 9F);
-            lblAdicionales.Location = new Point(55, 176);
+            lblAdicionales.Location = new Point(35, 150);
             lblAdicionales.Name = "lblAdicionales";
             lblAdicionales.RightToLeft = RightToLeft.No;
-            lblAdicionales.Size = new Size(71, 15);
+            lblAdicionales.Size = new Size(150, 153);
             lblAdicionales.TabIndex = 10;
             lblAdicionales.Text = "Adicionales:";
             // 
             // chkCocina
             // 
             chkCocina.AutoSize = true;
-            chkCocina.Location = new Point(98, 205);
+            chkCocina.Location = new Point(74, 188);
             chkCocina.Name = "chkCocina";
             chkCocina.Size = new Size(63, 19);
             chkCocina.TabIndex = 11;
@@ -178,7 +177,7 @@
             // chkHeladera
             // 
             chkHeladera.AutoSize = true;
-            chkHeladera.Location = new Point(98, 249);
+            chkHeladera.Location = new Point(74, 226);
             chkHeladera.Name = "chkHeladera";
             chkHeladera.Size = new Size(73, 19);
             chkHeladera.TabIndex = 12;
@@ -188,28 +187,28 @@
             // chkTelevisor
             // 
             chkTelevisor.AutoSize = true;
-            chkTelevisor.Location = new Point(98, 293);
+            chkTelevisor.Location = new Point(74, 260);
             chkTelevisor.Name = "chkTelevisor";
-            chkTelevisor.Size = new Size(71, 19);
+            chkTelevisor.Size = new Size(72, 19);
             chkTelevisor.TabIndex = 13;
             chkTelevisor.Text = "Televisor";
             chkTelevisor.UseVisualStyleBackColor = true;
             // 
             // lblFormaPago
             // 
-            lblFormaPago.AutoSize = true;
+            lblFormaPago.BorderStyle = BorderStyle.FixedSingle;
             lblFormaPago.Font = new Font("Segoe UI", 9F);
-            lblFormaPago.Location = new Point(287, 176);
+            lblFormaPago.Location = new Point(191, 150);
             lblFormaPago.Name = "lblFormaPago";
             lblFormaPago.RightToLeft = RightToLeft.No;
-            lblFormaPago.Size = new Size(95, 15);
+            lblFormaPago.Size = new Size(398, 153);
             lblFormaPago.TabIndex = 14;
             lblFormaPago.Text = "Formas de Pago:";
             // 
             // optEfectivo
             // 
             optEfectivo.AutoSize = true;
-            optEfectivo.Location = new Point(336, 218);
+            optEfectivo.Location = new Point(243, 188);
             optEfectivo.Name = "optEfectivo";
             optEfectivo.Size = new Size(67, 19);
             optEfectivo.TabIndex = 15;
@@ -220,9 +219,9 @@
             // optTarjeta
             // 
             optTarjeta.AutoSize = true;
-            optTarjeta.Location = new Point(336, 261);
+            optTarjeta.Location = new Point(243, 226);
             optTarjeta.Name = "optTarjeta";
-            optTarjeta.Size = new Size(62, 19);
+            optTarjeta.Size = new Size(63, 19);
             optTarjeta.TabIndex = 16;
             optTarjeta.TabStop = true;
             optTarjeta.Text = "Tarjeta:";
@@ -231,7 +230,7 @@
             // cmbTarjetas
             // 
             cmbTarjetas.FormattingEnabled = true;
-            cmbTarjetas.Location = new Point(460, 280);
+            cmbTarjetas.Location = new Point(348, 248);
             cmbTarjetas.Name = "cmbTarjetas";
             cmbTarjetas.Size = new Size(207, 23);
             cmbTarjetas.TabIndex = 17;
@@ -240,36 +239,36 @@
             // 
             lblSeleccioneTarjeta.AutoSize = true;
             lblSeleccioneTarjeta.Font = new Font("Segoe UI", 9F);
-            lblSeleccioneTarjeta.Location = new Point(460, 263);
+            lblSeleccioneTarjeta.Location = new Point(348, 230);
             lblSeleccioneTarjeta.Name = "lblSeleccioneTarjeta";
             lblSeleccioneTarjeta.RightToLeft = RightToLeft.No;
-            lblSeleccioneTarjeta.Size = new Size(118, 15);
+            lblSeleccioneTarjeta.Size = new Size(119, 15);
             lblSeleccioneTarjeta.TabIndex = 18;
             lblSeleccioneTarjeta.Text = "Seleccione su Tarjeta:";
             // 
             // lblTitular
             // 
-            lblTitular.AutoSize = true;
+            lblTitular.BorderStyle = BorderStyle.FixedSingle;
             lblTitular.Font = new Font("Segoe UI", 9F);
-            lblTitular.Location = new Point(55, 368);
+            lblTitular.Location = new Point(35, 314);
             lblTitular.Name = "lblTitular";
             lblTitular.RightToLeft = RightToLeft.No;
-            lblTitular.Size = new Size(114, 15);
+            lblTitular.Size = new Size(554, 127);
             lblTitular.TabIndex = 19;
             lblTitular.Text = "Titular de la Reserva:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(161, 406);
+            textBox1.Location = new Point(110, 352);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(506, 23);
+            textBox1.Size = new Size(456, 23);
             textBox1.TabIndex = 20;
             // 
             // llblNombre
             // 
             llblNombre.AutoSize = true;
             llblNombre.Font = new Font("Segoe UI", 9F);
-            llblNombre.Location = new Point(101, 409);
+            llblNombre.Location = new Point(50, 355);
             llblNombre.Name = "llblNombre";
             llblNombre.RightToLeft = RightToLeft.No;
             llblNombre.Size = new Size(54, 15);
@@ -280,25 +279,25 @@
             // 
             lblNumero.AutoSize = true;
             lblNumero.Font = new Font("Segoe UI", 9F);
-            lblNumero.Location = new Point(100, 454);
+            lblNumero.Location = new Point(50, 402);
             lblNumero.Name = "lblNumero";
             lblNumero.RightToLeft = RightToLeft.No;
-            lblNumero.Size = new Size(55, 15);
+            lblNumero.Size = new Size(56, 15);
             lblNumero.TabIndex = 22;
             lblNumero.Text = "Telefono:";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(161, 451);
+            textBox2.Location = new Point(110, 399);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(506, 23);
+            textBox2.Size = new Size(456, 23);
             textBox2.TabIndex = 23;
             // 
             // Reservas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 546);
+            ClientSize = new Size(617, 465);
             Controls.Add(textBox2);
             Controls.Add(lblNumero);
             Controls.Add(llblNombre);
